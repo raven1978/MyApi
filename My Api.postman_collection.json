@@ -1,0 +1,271 @@
+{
+	"owner": "4281111",
+	"lastUpdatedBy": "4281111",
+	"lastRevision": 4090534312,
+	"team": null,
+	"id": "6ec9c8d7-bab4-4146-8592-c031ad90bc0d",
+	"name": "My Api",
+	"description": null,
+	"variables": null,
+	"auth": null,
+	"events": null,
+	"folders_order": [],
+	"order": [
+		"7645bb0e-dc38-4279-a8ff-8261d4831886",
+		"776a632a-5ebf-4768-b4e1-5c8fbe52e8d2",
+		"d48ceef2-4c55-4f62-9283-f783731cd0d0",
+		"0217f71e-acce-4428-8a71-c62b82c6e546",
+		"8a8456c8-9594-4503-9f6e-e298b1c0d45d",
+		"9adfc442-20dd-4331-ac31-438c4e11db80",
+		"1cabdea1-5baf-45d0-a65f-3a100a054b1d"
+	],
+	"folders": [],
+	"hasRequests": true,
+	"requests": [
+		{
+			"folder": null,
+			"id": "0217f71e-acce-4428-8a71-c62b82c6e546",
+			"name": "http://localhost/MyApi/api/v1/user/unsubscribe/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\r\n  \"id\" : 19\r\n}",
+			"descriptionFormat": null,
+			"description": "Api Login",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: HpNV3loKyBm2g94qIAGKKu1VLUcNIcWJ7mEBuitBrn2Cga6BKnAoyPe4JNtGCYyO\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "http://localhost/MyApi/api/v1/user/unsubscribe/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "HpNV3loKyBm2g94qIAGKKu1VLUcNIcWJ7mEBuitBrn2Cga6BKnAoyPe4JNtGCYyO",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "6ec9c8d7-bab4-4146-8592-c031ad90bc0d"
+		},
+		{
+			"folder": null,
+			"id": "1cabdea1-5baf-45d0-a65f-3a100a054b1d",
+			"name": "http://localhost/MyApi/api/v1/articoli/1",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\r\n  \"username\" : \"Joe\",\r\n  \"password\" : \"Bastianich\"\r\n}",
+			"descriptionFormat": null,
+			"description": "Api Login",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: 6Flqa3LprIaKuHzlVg5cL5aAtCcsZSdEdQh4iRWt0z8EzEeFXHvKy2i7DKzkCK2h\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://localhost/MyApi/api/v1/articoli/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				},
+				{
+					"key": "Authorization",
+					"value": "6Flqa3LprIaKuHzlVg5cL5aAtCcsZSdEdQh4iRWt0z8EzEeFXHvKy2i7DKzkCK2h",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "6ec9c8d7-bab4-4146-8592-c031ad90bc0d"
+		},
+		{
+			"folder": null,
+			"id": "7645bb0e-dc38-4279-a8ff-8261d4831886",
+			"name": "http://localhost/MyApi/api/v1/user/login/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\r\n  \"username\" : \"Joe\",\r\n  \"password\" : \"Bastianich\"\r\n}",
+			"descriptionFormat": null,
+			"description": "Api Login",
+			"variables": null,
+			"headers": "Content-Type: application/json\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://localhost/MyApi/api/v1/user/login/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "6ec9c8d7-bab4-4146-8592-c031ad90bc0d"
+		},
+		{
+			"folder": null,
+			"id": "776a632a-5ebf-4768-b4e1-5c8fbe52e8d2",
+			"name": "http://localhost/MyApi/api/v1/user/subscribe/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\"username\" : \"Gordon\", \"password\" : \"Ramsey\", \"age\" : 55}",
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "Content-Type: application/json\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://localhost/MyApi/api/v1/user/subscribe/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "6ec9c8d7-bab4-4146-8592-c031ad90bc0d"
+		},
+		{
+			"folder": null,
+			"id": "8a8456c8-9594-4503-9f6e-e298b1c0d45d",
+			"name": "http://localhost/MyApi/api/v1/ordini/delete/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\r\n  \"id\" : 25\r\n}",
+			"descriptionFormat": null,
+			"description": "Api Login",
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: 6Flqa3LprIaKuHzlVg5cL5aAtCcsZSdEdQh4iRWt0z8EzEeFXHvKy2i7DKzkCK2h\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "http://localhost/MyApi/api/v1/ordini/delete/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": ""
+				},
+				{
+					"key": "Authorization",
+					"value": "6Flqa3LprIaKuHzlVg5cL5aAtCcsZSdEdQh4iRWt0z8EzEeFXHvKy2i7DKzkCK2h",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "6ec9c8d7-bab4-4146-8592-c031ad90bc0d"
+		},
+		{
+			"folder": null,
+			"id": "9adfc442-20dd-4331-ac31-438c4e11db80",
+			"name": "http://localhost/MyApi/api/v1/articoli",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\r\n  \"username\" : \"Joe\",\r\n  \"password\" : \"Bastianich\"\r\n}",
+			"descriptionFormat": null,
+			"description": "Api Login",
+			"variables": null,
+			"headers": "//Content-Type: application/json\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "http://localhost/MyApi/api/v1/articoli",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "6ec9c8d7-bab4-4146-8592-c031ad90bc0d"
+		},
+		{
+			"folder": null,
+			"id": "d48ceef2-4c55-4f62-9283-f783731cd0d0",
+			"name": "http://localhost/MyApi/api/v1/ordini/submit/",
+			"dataMode": "raw",
+			"data": [],
+			"auth": null,
+			"events": null,
+			"rawModeData": "{\"maglietta\" : 2, \"calzini\" : 5, \"giacca\" : 1}",
+			"descriptionFormat": null,
+			"description": null,
+			"variables": null,
+			"headers": "Content-Type: application/json\nAuthorization: 6Flqa3LprIaKuHzlVg5cL5aAtCcsZSdEdQh4iRWt0z8EzEeFXHvKy2i7DKzkCK2h\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "http://localhost/MyApi/api/v1/ordini/submit/",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"queryParams": [],
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"key": "Authorization",
+					"value": "6Flqa3LprIaKuHzlVg5cL5aAtCcsZSdEdQh4iRWt0z8EzEeFXHvKy2i7DKzkCK2h",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariableData": [],
+			"responses": [],
+			"collectionId": "6ec9c8d7-bab4-4146-8592-c031ad90bc0d"
+		}
+	]
+}
